@@ -1,0 +1,104 @@
+/*<-----General------>*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+/*<----- Index -----> */
+
+#index {
+    background-color: #7FFB65;
+}
+
+.index-header {
+    color: #F7F13A
+}
+
+.post-review-link {
+    float: right;
+    margin: 0 5% 0 0;
+    background-color: #3578F2;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px 10px 10px;
+}
+.post-review-link a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.main {
+    background-color: #fff;
+    padding: 5px 20px 5px 20px;
+    text-align: justify;  
+}
+
+/*<-----PostReview----->*/
+
+
+h1 { 
+    width: 100%;
+    text-align: center;
+}
+
+.home-link {
+    float: right;
+    margin: 0 5% 0 0;
+    background-color: #3578F2;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px 10px 10px;
+}
+
+.home-link a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    width: 90%;
+    margin: 100px 5% 0 5%;
+}
+
+section div {
+    width: 100%;
+    margin: 50px 0 50px 0;
+}
+
+section div label {
+    display: block;
+    margin: 0 0 10px 0;
+}
+
+section div .form-input {
+    width: 100%;
+    border: 2px solid;
+}
+
+section div #title {
+    height: 20px;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    background-color: #000;
+    color: #fff;
+    margin: 20px 0 0 0;
+}
+
+@media screen and (min-width: 800px) {
+    section {
+        width: 50%;
+        margin: 100px 25% 0 25%;
+    }
+}
+
+
+
+/*<----- NOT FOUND -----> */
+
+#not-found {
+    text-align: center;
+    margin: 50px 0 0 0;
+}

@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+    <% include head %>
+    <body>
+        <% include header %>
+        <div class="home-link"> <a href="/"> Home</a></div>
+        <section>
+            <form method="post">
+                <div>
+                        <label for="title">Title</label>
+                        <input type="text" class="form-input" id="title" name="title"
+                        placeholder="Entry title" required/>
+                </div>
+                <div>
+                        <label for="content">Entry text</label>
+                        <textarea class="form-input"  id="body" name="body"
+                        placeholder="Entry a comment" rows="10" required></textarea>
+                        <button> Send </button>
+                </div> 
+            </form>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <% include head %>
+    <body id="index">
+        <span class='index-header'><% include header %></span>
+        <div class="post-review-link"> <a href="postReview"> Post review</a></div>
+        <section>
+            <!--Display all the content fron the global array-->
+            <%  if (entries.length) { %>
+                <% if (entries.length) { %>
+                    <% entries.forEach(function(entry) { %>
+                       <div class="main">
+                           <div><%= entry.published %></div>
+                           <div><%= entry.title %></div>
+                           <div><%= entry.content %></div>
+                       </div>
+                    <% }); %>
+                <% } else { %>
+                      No entries! <a href="/new-entry">Add one!</a>
+                    <% } %>
+            <% } %>
+        </section>
+    </body>
+</html>
