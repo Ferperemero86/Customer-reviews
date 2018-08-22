@@ -7,7 +7,7 @@ const parser = require('body-parser');
 app.use(express.static(path.resolve(__dirname + '/public')));
 
 //Set the directory for the views
-app.set('views',path.resolve(__dirname, 'views'));
+app.set('views',path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 //Create a global array to store the data  we want to publish
